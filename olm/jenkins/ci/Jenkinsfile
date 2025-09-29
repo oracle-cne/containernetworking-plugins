@@ -5,7 +5,7 @@ String version = "1.8.0";
 
 olcnePipeline(
     branchPattern: new BranchPattern(master: "oracle/release/" + version, feature: '(?!^release/.*$)(^.*$)'),
-    customStages: [container: [enabled: false], merge: [enabled: true]],
+    customStages: [container: [enabled: false]],
     platforms: [ 'ol8', 'ol9'],
     architectures: ['x86_64', 'aarch64'],
     yumOL8Repos:['ol8_appstream'],
