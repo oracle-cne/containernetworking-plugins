@@ -20,6 +20,8 @@ Source:         %{name}-%{version}.tar.bz2
 BuildRequires:  golang
 #%{?systemd_requires}
 Requires:       flannel-cni-plugin >= 1.2.0
+Patch0:         build_linux.sh.patch
+
 %description
 The CNI (Container Network Interface) project consists of a
 specification and libraries for writing plugins to configure
@@ -33,9 +35,10 @@ This is the minimal CNI configuration for Kubernetes.
 
 %prep
 %setup -q -n %{name}-%{version}
+%patch0
 
 %build
-
+export VERSION="v%{version}"
 chmod +x build_linux.sh
 ./build_linux.sh
 
