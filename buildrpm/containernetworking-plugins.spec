@@ -22,6 +22,9 @@ BuildRequires:  golang
 Requires:       flannel-cni-plugin >= 1.2.0
 Patch0:         build_linux.sh.patch
 
+Provides: kubernetes-cni-plugins =  %{version}-%{release}
+Obsoletes: kubernetes-cni-plugins < 1.8.0
+
 %description
 The CNI (Container Network Interface) project consists of a
 specification and libraries for writing plugins to configure
