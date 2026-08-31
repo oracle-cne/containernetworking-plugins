@@ -55,8 +55,6 @@ SPDX:Apache-2.0
 Copyright 2014-2016 CNI authors
 Copyright 2015 CNI authors
 Copyright 2016 CNI authors
-Copyright 2017 CNI authors
-Copyright 2018 CNI authors
 Copyright 2019 CNI authors
 Copyright 2022 CNI authors
 
@@ -89,18 +87,8 @@ github.com/coreos/go-systemd/v22
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2014 Docker, Inc.
-Copyright 2015 CoreOS Inc.
 Copyright 2015 CoreOS, Inc.
-Copyright 2015 RedHat, Inc.
-Copyright 2015, 2018 CoreOS, Inc.
-Copyright 2015-2018 CoreOS, Inc.
-Copyright 2016 CoreOS, Inc.
 Copyright 2018 CoreOS, Inc
-Copyright 2018 CoreOS, Inc.
-Copyright 2019 CoreOS, Inc.
-Copyright 2020 CoreOS, Inc.
-Copyright 2022 CoreOS, Inc.
 
 == Notices
 CoreOS Project
@@ -604,7 +592,6 @@ SPDX:BSD-3-Clause
 == Copyright
 Copyright (c) 2018, Andrea Barberio
 Copyright 2018 Google LLC
-Copyright 2018 the u-root Authors and Andrea Barberio. All rights reserved.
 Copyright 2018 the u-root Authors. All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
@@ -650,7 +637,6 @@ SPDX:MIT
 
 == Copyright
 Copyright (C) 2021 Matt Layher
-Copyright 2016 The Go Authors. All rights reserved. Use of this source
 
 --------------------------------- (separator) ----------------------------------
 
@@ -753,8 +739,6 @@ Copyright 2018 the u-root Authors. All rights reserved
 Copyright 2019 the u-root Authors. All rights reserved
 Copyright 2020 the u-root Authors. All rights reserved
 Copyright 2021 the u-root Authors. All rights reserved
-Copyright 2023 the u-root Authors. All rights reserved
-Copyright 2024 the u-root Authors. All rights reserved
 
 --------------------------------- (separator) ----------------------------------
 
@@ -819,23 +803,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 == Copyright
 Copyright 2009 The Go Authors.
-Copyright 2009 The Go Authors. All rights reserved.
 Copyright 2010 The Go Authors. All rights reserved.
 Copyright 2011 The Go Authors. All rights reserved.
 Copyright 2012 The Go Authors. All rights reserved.
 Copyright 2013 The Go Authors. All rights reserved.
-Copyright 2014 The Go Authors. All rights reserved.
-Copyright 2015 The Go Authors. All rights reserved.
 Copyright 2016 The Go Authors. All rights reserved.
 Copyright 2017 The Go Authors. All rights reserved.
-Copyright 2018 The Go Authors. All rights reserved.
-Copyright 2019 The Go Authors. All rights reserved.
-Copyright 2020 The Go Authors. All rights reserved.
-Copyright 2021 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright 2023 The Go Authors. All rights reserved.
 Copyright 2024 The Go Authors. All rights reserved.
-Copyright 2025 The Go Authors. All rights reserved.
 
 == Patents
 Additional IP Rights Grant (Patents)
@@ -901,10 +875,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 == Copyright
 Copyright 2009 The Go Authors.
-Copyright 2013 The Go Authors. All rights reserved.
 Copyright 2016 The Go Authors. All rights reserved.
-Copyright 2017 The Go Authors. All rights reserved.
-Copyright 2019 The Go Authors. All rights reserved.
 
 == Patents
 Additional IP Rights Grant (Patents)
@@ -979,7 +950,6 @@ Copyright 2013 The Go Authors. All rights reserved.
 Copyright 2014 The Go Authors. All rights reserved.
 Copyright 2015 The Go Authors. All rights reserved.
 Copyright 2016 The Go Authors. All rights reserved.
-Copyright 2017 The Go Authors. All right reserved.
 Copyright 2017 The Go Authors. All rights reserved.
 Copyright 2018 The Go Authors. All rights reserved.
 Copyright 2019 The Go Authors. All rights reserved.
