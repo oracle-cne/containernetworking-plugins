@@ -10,7 +10,7 @@
 
 Name:           containernetworking-plugins 
 Version:        1.9.1
-Release:        1%{dist}
+Release:        2%{dist}
 Summary:        Container Network Interface Plugins - networking plugins for Linux containers
 Vendor:         Oracle America
 License:        Apache-2.0
@@ -54,5 +54,8 @@ mv bin/ %{buildroot}/opt/cni/
 /opt/cni
 
 %changelog
+* Fri Oct 09 2026 Oracle Cloud Native Environment Authors <noreply@oracle.com> - 1.9.1-2
+- Update golang.org/x/net and its required dependencies
+
 * Mon Mar 16 2026 Oracle Cloud Native Environment Authors <noreply@oracle.com> - 1.9.1-1
 - Added Oracle specific build files for Kubernetes CNI Plugins

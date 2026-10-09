@@ -1,6 +1,6 @@
 module github.com/containernetworking/plugins
 
-go 1.24.2
+go 1.25.0
 
 require (
 	github.com/Microsoft/hcsshim v0.13.0
@@ -20,7 +20,7 @@ require (
 	github.com/safchain/ethtool v0.6.2
 	github.com/vishvananda/netlink v1.3.1
 	github.com/vishvananda/netns v0.0.5
-	golang.org/x/sys v0.35.0
+	golang.org/x/sys v0.46.0
 	sigs.k8s.io/knftables v0.0.18
 )
 
@@ -48,10 +48,10 @@ require (
 	go.opencensus.io v0.24.0 // indirect
 	go.uber.org/automaxprocs v1.6.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/net v0.43.0 // indirect
-	golang.org/x/sync v0.16.0 // indirect
-	golang.org/x/text v0.28.0 // indirect
-	golang.org/x/tools v0.36.0 // indirect
+	golang.org/x/net v0.56.0 // indirect
+	golang.org/x/sync v0.21.0 // indirect
+	golang.org/x/text v0.38.0 // indirect
+	golang.org/x/tools v0.45.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241015192408-796eee8c2d53 // indirect
 	google.golang.org/grpc v1.69.0 // indirect
 	google.golang.org/protobuf v1.36.7 // indirect
