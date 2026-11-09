@@ -1,0 +1,13 @@
+diff --git build_linux.sh build_linux.sh
+index b6d054e7..99f331e4 100755
+--- build_linux.sh
++++ build_linux.sh
+@@ -17,7 +17,7 @@ for d in $PLUGINS; do
+ 		plugin="$(basename "$d")"
+ 		if [ "${plugin}" != "windows" ]; then
+ 			echo "  $plugin"
+-			${GO:-go} build -o "${PWD}/bin/$plugin" "$@" ./"$d"
++			${GO:-go} build -trimpath=false -o "${PWD}/bin/$plugin" -ldflags "-X main.VERSION=$VERSION" "$@" ./"$d"
+ 		fi
+ 	fi
+ done
